@@ -1,0 +1,28 @@
+Step 1: Create Virtual env
+py -m venv env
+
+Step 2: Activate the env
+.\env\Scripts\activate 
+
+
+
+dependency
+
+pip install fastapi
+
+pip3 install uvicorn
+
+
+
+running command
+
+uvicorn main:app --reload
+
+pip3 install -r requirements
+
+
+
+documents
+
+https://docs.sqlalchemy.org/en/14/orm/tutorial.html
+https://fastapi.tiangolo.com/tutorial/sql-databases/
